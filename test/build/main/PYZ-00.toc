@@ -672,9 +672,6 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py',
    'PYMODULE'),
-  ('est',
-   'C:\\Users\\Cliente\\IdeaProjects\\Estadistica\\test\\est.py',
-   'PYMODULE'),
   ('fileinput',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\fileinput.py',
@@ -706,6 +703,9 @@
   ('glob',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\glob.py',
+   'PYMODULE'),
+  ('graficas',
+   'C:\\Users\\Cliente\\IdeaProjects\\Estadistica\\test\\graficas.py',
    'PYMODULE'),
   ('gzip',
    'C:\\Program '
@@ -838,6 +838,9 @@
   ('inspect',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('intervalos',
+   'C:\\Users\\Cliente\\IdeaProjects\\Estadistica\\test\\intervalos.py',
    'PYMODULE'),
   ('ipaddress',
    'C:\\Program '
