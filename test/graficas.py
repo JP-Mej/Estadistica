@@ -11,7 +11,6 @@ df_egreso = crear_intervalos_egresos()
 df_ingreso['Frecuencia acumulada'] = df_ingreso['Estudiantes'].cumsum()
 df_egreso['Frecuencia acumulada'] = df_egreso['Estudiantes'].cumsum()
 
-
 #amplitud:
 
 m =  1 + (3.3*math.log(n,10))
@@ -48,13 +47,12 @@ sup_egresos = df_egreso.loc[m-1,'Egresos'].right
 df_marca_egreso = pd.DataFrame({
     'Marca de clase': (df_egreso['Egresos'].apply(lambda x: x.left) + df_egreso['Egresos'].apply(lambda x: x.right)) / 2,
     'Frecuencia': df_egreso['Estudiantes'],
-    'Frecuencia acumulada': df_ingreso['Frecuencia acumulada']
+    'Frecuencia acumulada': df_egreso['Frecuencia acumulada']
 })
 
 
 df_marca_egreso = pd.concat(
 [pd.DataFrame({'Marca de clase': [inf_egresos-a_eg], 'Frecuencia': [0], 'Frecuencia acumulada' : [0]}), df_marca_egreso, pd.DataFrame({'Marca de clase': [sup_egresos+a_eg], 'Frecuencia': [0], 'Frecuencia acumulada' : [0]})],ignore_index=True)
-
 
 
 
