@@ -1,6 +1,6 @@
 
 import tkinter as tk
-from Scripts import *
+from graficas import *
 
 
 #Interfaz:
